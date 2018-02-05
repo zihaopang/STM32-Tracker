@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS -I..\..\Libraries\FWlib\inc -I..\..\User -I..\..\User\Delay -I..\..\User\SysTick -I..\..\User\Uart -I..\..\User\Led -I..\..\User\Pwm -I..\..\User\Ldc1314 -I..\..\User\IIC -I..\..\User\Motor -I..\..\User\Tack -I..\..\User\Control -I..\..\User\pid -I..\..\User\wheelSpeed -I..\..\User\encoder 
+-I C:\Keil_MDK470\ARM\RV31\INC 
+-I C:\Keil_MDK470\ARM\CMSIS\Include 
+-I C:\Keil_MDK470\ARM\Inc\ST\STM32F10x 
+-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\..\Output\wheelspeed.o" --omf_browse "..\..\Output\wheelspeed.crf" --depend "..\..\Output\wheelspeed.d" "..\..\User\wheelSpeed\wheelSpeed.c"

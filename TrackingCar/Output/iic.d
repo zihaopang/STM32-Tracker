@@ -1,0 +1,14 @@
+..\..\output\iic.o: ..\..\User\IIC\iic.c
+..\..\output\iic.o: ..\..\User\IIC\iic.h
+..\..\output\iic.o: ..\..\Libraries\CMSIS\stm32f10x.h
+..\..\output\iic.o: ..\..\Libraries\CMSIS\core_cm3.h
+..\..\output\iic.o: D:\keil5\ARM\ARMCC\bin\..\include\stdint.h
+..\..\output\iic.o: ..\..\Libraries\CMSIS\system_stm32f10x.h
+..\..\output\iic.o: ..\..\User\stm32f10x_conf.h
+..\..\output\iic.o: ..\..\Libraries\FWlib\inc\stm32f10x_gpio.h
+..\..\output\iic.o: ..\..\Libraries\CMSIS\stm32f10x.h
+..\..\output\iic.o: ..\..\Libraries\FWlib\inc\stm32f10x_i2c.h
+..\..\output\iic.o: ..\..\Libraries\FWlib\inc\stm32f10x_rcc.h
+..\..\output\iic.o: ..\..\Libraries\FWlib\inc\stm32f10x_tim.h
+..\..\output\iic.o: ..\..\Libraries\FWlib\inc\stm32f10x_usart.h
+..\..\output\iic.o: ..\..\Libraries\FWlib\inc\misc.h
